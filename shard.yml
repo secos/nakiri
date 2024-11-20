@@ -1,0 +1,17 @@
+name: nakiri
+version: 0.1.0
+
+description: |
+  A CLI tool for extracting data from web pages using CSS selectors
+
+dependencies:
+  crest:
+    github: mamantoha/crest
+  lexbor:
+    github: kostya/lexbor
+
+targets:
+  nakiri:
+    main: src/nakiri.cr
+
+crystal: '>= 1.0.0'
