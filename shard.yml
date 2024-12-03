@@ -1,8 +1,17 @@
 name: nakiri
-version: 0.1.0
+version: 1.0.0
 
 description: |
   A CLI tool for extracting data from web pages using CSS selectors
+
+authors:
+  - Your Name <your.email@example.com>
+
+crystal: '>= 1.0.0'
+
+license: MIT
+
+repository: https://github.com/yourusername/nakiri
 
 dependencies:
   crest:
@@ -10,8 +19,13 @@ dependencies:
   lexbor:
     github: kostya/lexbor
 
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    version: ~> 1.5.0
+  spec-kemal:
+    github: kemalcr/spec-kemal
+
 targets:
   nakiri:
     main: src/nakiri.cr
-
-crystal: '>= 1.0.0'

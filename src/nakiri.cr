@@ -3,7 +3,7 @@ require "lexbor"
 require "option_parser"
 
 module Nakiri
-  VERSION = "0.1.0"
+  VERSION = "1.0.0"
 
   url : String? = nil
   selector = ""
