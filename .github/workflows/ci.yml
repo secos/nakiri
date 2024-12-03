@@ -23,4 +23,4 @@ jobs:
       run: crystal spec
       
     - name: Run ameba
-      run: bin/ameba
+      run: crystal lib/ameba/bin/ameba
